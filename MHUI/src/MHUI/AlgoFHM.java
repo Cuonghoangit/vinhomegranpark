@@ -112,6 +112,7 @@ public class AlgoFHM {
 		MemoryLogger.getInstance().reset();
 		mapItemToThreshhold = new HashMap<Integer, Long>();
 		int tung = 0;
+		tung =1;
 		// initialize the buffer for storing the current itemset
 		itemsetBuffer = new int[BUFFERS_SIZE];
 		
